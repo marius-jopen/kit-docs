@@ -2,27 +2,24 @@
 description: Introduction to KitDocs.
 ---
 
-# Introduction
+# Introducing PrelteKit
+## The Ultimate SvelteKit + Prismic Starter Theme
 
-KitDocs makes it easy to build a documentation site with [SvelteKit](https://kit.svelte.dev/docs).
-You can think of it as a [VitePress](https://vitepress.vuejs.org) alternative for
-[Sveltalowdas](https://twitter.com/sveltejs/status/1226662581449953280) (i.e., the people of Svelte).
+Simplify your development process with PrelteKit. This innovative starter theme is specifically designed for developers, seamlessly integrating SvelteKit with the CMS Prismic. With a pre-configured setup, you can dive right into creating exceptional web applications. Harnessing the power of Tailwind CSS and a vast collection of atomic components, PrelteKit streamlines development, allowing you to focus on crafting remarkable user experiences. Say goodbye to tedious setup and hello to efficient, intuitive development with PrelteKit.
 
 Here's a list of everything it has to offer:
 
-- :memo: Vite plugin for transforming Markdown files to Svelte components with HMR support.
-- :satellite: Loaders and endpoint handlers for loading Markdown metadata (i.e., title, frontmatter, etc.),
-  and sidebar configurations.
-- :art: Beautiful pre-designed theme that's inspired by the [Tailwind docs](https://tailwindcss.com/docs/installation).
-- :wheelchair: Accessible menus and popovers with full keyboard support, which are included
-  in the default theme and also exported for your convenience.
-- :earth_americas: Global components folder that's imported into all Markdown files
-  and also mapped to custom containers (e.g., `Button.svelte` -> `:::button`).
-- :jigsaw: Markdown extensions for header anchors, file links, YAML frontmatter, emojis, custom
-  containers, table of contents, code fences, and importing code snippets.
-- :framed_picture: Beautiful syntax highlighting with [Shiki](https://shiki.matsu.io). This
-  includes pre-designed code blocks that support titles, line highlighting, copy code button and a
-  few other goodies.
-- :building_construction: Prebuilt Markdown components for steps, admonitions (i.e., callouts),
-  tabbed links, responsive tables, and yes/no blocks.
-- :mag_right: Algolia search integration that includes a clean default design.
+- :wrench: Setup for Prismic, so it has all the fields which are needed to create a website
+- :vertical_traffic_light: Routing is set up and works automatically
+- :mag: SEO component
+- :iphone: Basic responsive for tablet and mobile
+- :bricks: Atomic components for images, text, links, and videos
+- :art: Images automatically have lazyload and get pulled from Prismic in the correct size
+- :film_projector: Vimeo player with controls, responsive videos possible
+- :rocket: Automatically deploys on Netlify
+- :hammer: Other extra useful components for layout (e.g., accordion, two-column scroll)
+- :link: Navigation for desktop and mobile already set up
+- :top: 2 Level navigation (dropdown) possible
+- :cinema: Basic image slider set up
+- :jigsaw: Uses slices to enable a flexible structure of the website for the editor
+- :gear: Good for highly customized websites but also for blogs, shops, or portfolios
