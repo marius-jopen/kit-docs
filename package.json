@@ -20,6 +20,7 @@
     "release": "pnpm clean && pnpm build && node .scripts/release.js"
   },
   "devDependencies": {
+    "@sveltejs/adapter-static": "^2.0.2",
     "@types/node": "^18.8.4",
     "@typescript-eslint/eslint-plugin": "^5.40.0",
     "@typescript-eslint/parser": "^5.40.0",
