@@ -1,47 +1,38 @@
-# KitDocs
+# create-svelte
 
-[![package-badge]][package]
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-Documentation integration for [SvelteKit][sveltekit]. You can think of it as a
-[VitePress](https://vitepress.vuejs.org) alternative for Svelte.
+## Creating a project
 
-![Demo ScreenShot](./assets/img/svelte.png)
+If you're seeing this, you've probably already done this step. Congrats!
 
-## ✨ Features
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-- 📝 Vite plugin for transforming Markdown files to Svelte components with HMR support.
-- 📡 Loaders and endpoint handlers for loading Markdown metadata (i.e., title, frontmatter, etc.),
-  and sidebar configurations.
-- 🎨 Beautiful pre-designed theme that's inspired by the [Tailwind docs](https://tailwindcss.com/docs/installation).
-- :wheelchair: Accessible menus and popovers with full keyboard support, which are included
-  in the default theme and also exported for your convenience.
-- 🌎 Global components folder that's imported into all Markdown files
-  and also mapped to custom containers (e.g., `Button.svelte` -> `:::button`).
-- 🧩 Markdown extensions for header anchors, file links, YAML frontmatter, emojis, custom
-  containers, table of contents, code fences, and importing code snippets.
-- 🖼️ Beautiful syntax highlighting with [Shiki](https://shiki.matsu.io). This
-  includes pre-designed code blocks that support titles, line highlighting, copy code button and a
-  few other goodies.
-- 🏗️ Prebuilt Markdown components for steps, admonitions (i.e., callouts),
-  tabbed links, responsive tables, and yes/no blocks.
-- 🔎 Algolia search integration that includes a clean default design.
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-## 📖 Documentation
+## Developing
 
-You can find our documentation at [kitdocs.vercel.app](https://kitdocs.vercel.app/).
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-[package]: https://www.npmjs.com/package/@svelteness/kit-docs
-[package-badge]: https://img.shields.io/npm/v/@svelteness/kit-docs/latest
-[sveltekit]: https://kit.svelte.dev
-[vite]: https://vitejs.dev
+```bash
+npm run dev
 
-## ❤️ Special Thanks
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-Thanks to [Vercel](https://vercel.com) for graciously providing us an OSS sponsored account
-for hosting our docs site!
+## Building
 
-[![Powered by Vercel](./assets/img/vercel.svg)](https://vercel.com/?utm_source=svelteness&utm_campaign=oss)
+To create a production version of your app:
 
-## 📝 License
+```bash
+npm run build
+```
 
-KitDocs is [MIT licensed](./LICENSE).
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
